@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Student</h1>
+    <section class="card">
+        <h2>Search Teacher</h2>
+        <input type="text" id="search" placeholder="Enter teacher name">
+        <button id="searchButton"></button>
+        <ul id="teacherList"></ul>
+        <input type="text" id="purpose" placeholder="Purpose of appointment" />
+        <ul id="slotList"></ul>
+    </section>
+    <section class="card">
+        <h2>Available Slots</h2>
+        <ul id="slotList"></ul>
+    </section>
+    <section class="card">
+        <h2>My Appointments</h2>
+        <ul id="myAppointments"></ul>
+    </section>
+    <section class="card">
+  <h2>Messages</h2>
+  <ul id="messageList"></ul>
+  <input type="text" id="messageInput" placeholder="Type message..." />
+  <button id="sendMessage">Send</button>
+</section>
+
+    <script type="module" src="./js/student.js"></script>
+</body>
+</html>

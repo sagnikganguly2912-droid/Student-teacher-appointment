@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Teacher</h1>
+    <section class="card">
+        <h2>Add Appointment Slot</h2>
+        <input type="date" id="date">
+        <input type="time" id="time">
+        <button id="addSlot">Add Slot</button>
+    </section>
+
+    <section class="card">
+        <h2>My Appointment Slots</h2>
+        <ul id="slotList"></ul>
+    </section>
+
+    <section class="card">
+        <h2>Student Appointments</h2>
+        <ul></ul>
+    </section>
+
+    <section class="card">
+    <h2>Messages</h2>
+    <ul id="messageList"></ul>
+    <input type="text" id="messageInput" placeholder="Type message..." />
+    <button id="sendMessage">Send</button>
+    </section>
+
+    <script type="module" src="./js/teacher.js"></script>
+</body>
+</html>
